@@ -101,3 +101,46 @@ else:
 
 # Using the 'in' operator to check for membership
 
+programming_languages = ['css', 'html', 'js', 'react', 'Pythn', 'ts', 'node', 'express', 'golang']
+#                         0      1       2     3        4         5      6        7         8
+
+programming_languages[4] = 'Python'
+
+# [start:stop:step]
+print(programming_languages[0:5:2])  # Slicing the list to get the first five elements
+
+# for example i need from 1 to 5 but excluding 4 na how can i do that  ?
+for i in range(6):
+    if i != 4:
+        print(programming_languages[i])
+
+ 
+my_name = 'akhshy'
+print(my_name.lower())  # Convert to lowercase 
+
+upper_case_programming_languages = []
+for language in programming_languages:
+    upper_case_programming_languages.append(language.upper())  # Convert each language to uppercase and add to the new list
+
+print(upper_case_programming_languages)
+
+print(my_name[0:7:2])
+
+print(my_name[::-1])
+
+print(programming_languages)
+print(', '.join(programming_languages))
+
+print(my_name.split('h'))
+
+print(f'My name is {my_name.capitalize()} and I am learning Python.')
+print(f'My name is {my_name.upper()} and I am learning Python.')
+print('My name is' + ' ' + my_name.upper() + ' ' + 'and I am learning Python.')
+
+
+print(f"My name is \"{my_name.capitalize()}\" and I am learning Python.")
+
+print("""My name is Akhshy \n I want to learn Python""")
+
+
+    
