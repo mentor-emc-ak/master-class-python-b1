@@ -142,5 +142,4 @@ print(f"My name is \"{my_name.capitalize()}\" and I am learning Python.")
 
 print("""My name is Akhshy \n I want to learn Python""")
 
-
     
